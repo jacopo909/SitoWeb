@@ -1,0 +1,111 @@
+<!DOCTUPE html>
+
+<html>
+<head>
+<meta charset = "UTF-8">
+    <title> Blog by Jacopo Montella </title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    
+
+</head>
+<body>
+    
+    <header class="header clearfix"> 
+    
+    <a href="" class="header__icon-bar">
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        </a>
+    <ul class= "header__menu animate">
+        <li class="header__menu__item"><a href="index.html">Home</a></li>
+        <li class="header__menu__item"><a href="Nature.html">Nature</a></li>
+        <li class="header__menu__item"><a href="People.html">People</a></li>
+        <li class="header__menu__item"><a href="Animals.html">Animals</a></li>
+        <li class="header__menu__item"><a href="Bot.html">Bot</a></li>
+    </ul>
+    </header>
+
+<section class="cover cover--single">
+    <div class="cover__filter"></div>
+    <div class="cover__caption">
+        <div class="cover__caption__copy">
+        <h1>People</h1>
+        <h2>Blog</h2>
+        
+        
+        
+            
+        </div>
+    </div>
+</section>
+    
+<article class="single">
+   <div class="single__copy">
+        <h2>Persone</h2>
+        <p class="single__copy__meta"> by Rita Levi Montalcini</p>
+        <p>Rare sono le persone che usano la mente…
+        poche coloro che usano il cuore,
+        e uniche coloro che usano entrambi.</p>
+    </div>
+</article>
+
+<section class="cards clearfix">
+    <div class="card">
+    <img class="card__image" src="https://source.unsplash.com/featured/400x260/?people" alt="">
+     <div class="card__copy">
+       <h3>Jim Morrison</h3>
+       <p>L’anima di una persona è nascosta nel suo sguardo, per questo abbiamo paura di farci guardare negli occhi.</p>
+     </div> 
+     </div>
+    <div class="card">
+    <img class="card__image" src="https://source.unsplash.com/featured/400x260/?people at work " alt="">
+     <div class="card__copy">
+       <h3>Oscar Wilde</h3>
+       <p>Tutte le persone conoscono il prezzo delle cose ma soltanto alcune ne conoscono il vero valore.</p>
+     </div> 
+    </div>
+    <div class="card">
+    <img class="card__image" src="https://source.unsplash.com/featured/400x260/?people laughing" alt="">
+     <div class="card__copy">
+       <h3>Elisabeth Kübler-Ross</h3>
+       <p>Le persone sono come le vetrate. Scintillano e brillano quando c’è il sole, ma quando cala l’oscurità rivelano la loro bellezza solo se c’è una luce dentro.</p>
+     </div> 
+    </div>
+</section>
+   
+
+<footer class="footer">
+    <p>Copiright Jacopo Montella</p>
+</footer>
+    
+    
+    
+    
+    
+    
+
+    
+    
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$(".header__icon-bar").click(function(e){
+$(".header__menu").toggleClass('is-open')
+e.preventDefault();})        
+});
+                                
+
+</script>
+</body>
+</html>

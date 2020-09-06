@@ -1,0 +1,109 @@
+<!DOCTUPE html>
+
+<html>
+<head>
+<meta charset = "UTF-8">
+    <title> Blog by Jacopo Montella </title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    
+
+</head>
+<body>
+    
+    <header class="header clearfix"> 
+    
+    <a href="" class="header__icon-bar">
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        </a>
+    <ul class= "header__menu animate">
+        <li class="header__menu__item"><a href="index.html">Home</a></li>
+        <li class="header__menu__item"><a href="Nature.html">Nature</a></li>
+        <li class="header__menu__item"><a href="People.html">People</a></li>
+        <li class="header__menu__item"><a href="Animals.html">Animals</a></li>
+        <li class="header__menu__item"><a href="Bot.html">Bot</a></li>
+    </ul>
+    </header>
+
+<section class="cover cover--single">
+    <div class="cover__filter"></div>
+    <div class="cover__caption">
+        <div class="cover__caption__copy">
+        <h1>Animals</h1>
+            <h2>Blog</h2>
+        
+        
+        
+            
+        </div>
+    </div>
+</section>
+    
+<article class="single">
+   <div class="single__copy">
+        <h2>Animals</h2>
+        <p class="single__copy__meta">by Pitagora</p>
+        <p>Fintanto che l’uomo continuerà a distruggere gli esseri viventi inferiori, non conoscerà mai né la salute né la pace. Fintanto che massacreranno gli animali, gli uomini si uccideranno tra di loro. Perché chi semina delitto e dolore non può mietere gioia e amore.</p>
+    </div>
+</article>
+
+<section class="cards clearfix">
+    <div class="card">
+    <img class="card__image" src="https://source.unsplash.com/featured/400x260/?Animals" alt="">
+     <div class="card__copy">
+       <h3>Immanuel Kant</h3>
+       <p>Puoi conoscere il cuore di un uomo già dal modo in cui egli tratta gli animali.</p>
+     </div> 
+     </div>
+    <div class="card">
+    <img class="card__image" src="https://source.unsplash.com/featured/400x260/?cat " alt="">
+     <div class="card__copy">
+       <h3>Pam Brown</h3>
+       <p>Un piccolo gatto trasforma il ritorno in una casa vuota nel ritorno a casa.</p>
+     </div> 
+    </div>
+    <div class="card">
+    <img class="card__image" src="https://source.unsplash.com/featured/400x260/?dog" alt="">
+     <div class="card__copy">
+       <h3>Victor Hugo</h3>
+       <p>Fissa il tuo cane negli occhi e tenta ancora di affermare che gli animali non hanno un’anima.</p>
+     </div> 
+    </div>
+</section>
+   
+
+<footer class="footer">
+    <p>Copiright Jacopo Montella</p>
+</footer>
+    
+    
+    
+    
+    
+    
+
+    
+    
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$(".header__icon-bar").click(function(e){
+$(".header__menu").toggleClass('is-open')
+e.preventDefault();})        
+});
+                                
+
+</script>
+</body>
+</html>
